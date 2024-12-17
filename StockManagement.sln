@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{8082A3A5-9398-4648-A7D3-CB0DB1DBD6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F96D85D0-1089-4CC6-A8EE-44F75414B0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8082A3A5-9398-4648-A7D3-CB0DB1DBD6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8082A3A5-9398-4648-A7D3-CB0DB1DBD6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8082A3A5-9398-4648-A7D3-CB0DB1DBD6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8082A3A5-9398-4648-A7D3-CB0DB1DBD6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96D85D0-1089-4CC6-A8EE-44F75414B0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96D85D0-1089-4CC6-A8EE-44F75414B0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96D85D0-1089-4CC6-A8EE-44F75414B0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96D85D0-1089-4CC6-A8EE-44F75414B0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
