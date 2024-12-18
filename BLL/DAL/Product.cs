@@ -13,6 +13,10 @@ namespace BLL.DAL
 
         public int Quantity { get; set; }
 
+        [StringLength(1000)]
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+
         // Foreign Key
         public int CategoryId { get; set; }
 

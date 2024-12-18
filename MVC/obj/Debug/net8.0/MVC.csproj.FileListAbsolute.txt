@@ -289,3 +289,4 @@
 /Users/samilyildirim/RiderProjects/StockManagement/MVC/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/samilyildirim/RiderProjects/StockManagement/MVC/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /Users/samilyildirim/RiderProjects/StockManagement/MVC/obj/Debug/net8.0/MVC.MvcApplicationPartsAssemblyInfo.cs
+/Users/samilyildirim/RiderProjects/StockManagement/MVC/obj/Debug/net8.0/MVC.sourcelink.json

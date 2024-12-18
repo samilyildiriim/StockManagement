@@ -1,4 +1,5 @@
 using BLL.DAL;
+using BLL.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddControllersWithViews();
 // IoC Container: In order to manage dependencies
 var connectionString = "host=localhost;database=StockManagementDB;User Id=postgres;password=phaseI06";
 builder.Services.AddDbContext<Db>(options => options.UseNpgsql(connectionString));
+builder.Services.AddScoped<ICategoryService, CategoryService>(); // AddSingleton, AddTransient
 
 var app = builder.Build();
 

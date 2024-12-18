@@ -10,3 +10,4 @@
 /Users/samilyildirim/RiderProjects/StockManagement/BLL/obj/Debug/net8.0/refint/BLL.dll
 /Users/samilyildirim/RiderProjects/StockManagement/BLL/obj/Debug/net8.0/BLL.pdb
 /Users/samilyildirim/RiderProjects/StockManagement/BLL/obj/Debug/net8.0/ref/BLL.dll
+/Users/samilyildirim/RiderProjects/StockManagement/BLL/obj/Debug/net8.0/BLL.sourcelink.json
