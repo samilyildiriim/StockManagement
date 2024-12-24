@@ -1,5 +1,7 @@
 using BLL.DAL;
+using BLL.Models;
 using BLL.Services;
+using BLL.Services.Bases;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +13,10 @@ builder.Services.AddControllersWithViews();
 var connectionString = "host=localhost;database=StockManagementDB;User Id=postgres;password=phaseI06";
 builder.Services.AddDbContext<Db>(options => options.UseNpgsql(connectionString));
 builder.Services.AddScoped<ICategoryService, CategoryService>(); // AddSingleton, AddTransient
-
+// Way 1:
+// builder.Services.AddScoped<IProductService, ProductService>()
+// Way 2:
+builder.Services.AddScoped<IService<Product, ProductModel>, ProductService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

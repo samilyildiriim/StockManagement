@@ -9,10 +9,16 @@ namespace BLL.DAL
     {
         public DbSet<Product> Products { get; set; }    // Represents the Product Table
         public DbSet<Category> Categories { get; set; } // Represents the Category Table
+        public DbSet<Customer> Customers { get; set; }  // Represents the Customer Table
+        public DbSet<Order> Orders { get; set; }        // Represents the Order Table
+        public DbSet<OrderItem> OrderItems { get; set; }// Represents the OrderItem Table
+        public DbSet<Supplier> Suppliers { get; set; }  // Represents the Supplier Table
+        public DbSet<User> Users { get; set; }          // Represents the User Table
+
+        
      
         // In order to use defined database, send the connectionString to the Db() constructor
         // Inject the object containing the connectionString to the Db.cs class
-        
         public Db(DbContextOptions options) : base(options)
         {
             
